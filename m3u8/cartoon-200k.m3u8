@@ -1,0 +1,5 @@
+#EXTM3U
+#EXT-X-TARGETDURATION:10
+#EXTINF:8,
+cartoon-200k.split.0.ts
+#EXT-X-ENDLIST

@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<query>
+<userid>22049</userid>
+<userkey>8d938467da2327efe55f43f420c3dc86</userkey>
+<action>AddMedia</action>
+<source>http://scene7videos.s3.amazonaws.com/source/cartoon.mov?nocopy</source>
+<region>us-west-1</region>
+<notify>priti.adobe@gmail.com</notify><!-- can alternatively provide a http url for xml-post callback -->
+<format>
+	<output>mp4</output>
+	<size>0x240</size>
+	<bitrate>350k</bitrate>
+	<audio_bitrate>64k</audio_bitrate>
+	<audio_sample_rate>44100</audio_sample_rate>
+	<audio_channels_number>2</audio_channels_number>
+	<framerate>24</framerate>
+	<keep_aspect_ratio>yes</keep_aspect_ratio>
+	<video_codec>libx264</video_codec>
+	<profile>baseline</profile>
+	<audio_codec>dolby_aac</audio_codec>
+	<two_pass>no</two_pass>
+	<turbo>no</turbo>
+	<twin_turbo>no</twin_turbo>
+	<cbr>no</cbr>
+	<deinterlacing>auto</deinterlacing>
+	<keyframe>120</keyframe>
+	<audio_volume>100</audio_volume>
+	<rotate>def</rotate>
+	<metadata_copy>no</metadata_copy>
+	<strip_chapters>no</strip_chapters>
+	<hint>no</hint>
+	<keep_aspect_ratio>yes</keep_aspect_ratio>
+	<set_aspect_ratio>source</set_aspect_ratio>
+    <closed_captions>  
+        <source>http://scene7videos.s3.amazonaws.com/caption/cartoon.vtt</source>  
+        <copy>yes</copy>  
+        <extract>scc</extract>  
+        <mux_type>webvtt</mux_type>  
+    </closed_captions>	
+	<destination>http://scene7videos.s3.amazonaws.com/destination/cartoon.mp4?acl=private-read&amp;06f413942c1653a79ce7fd1fd7874736bc67b4357ded88413d8d6b1d2104835a</destination>
+	<destination>http://username:password@youtube.com/?title=scene7_9Oct2013_vid1&amp;category=Tech&amp;keywords=scene7</destination>
+</format>
+<format>
+	<output>thumbnail</output>
+	<time>2!</time>
+	<destination>https://scene7videos.s3.amazonaws.com/destination/cartoon.jpeg?acl=private-read&amp;06f413942c1653a79ce7fd1fd7874736bc67b4357ded88413d8d6b1d2104835a</destination>
+</format>
+<format>  
+    <output>iphone_stream</output>  
+    <destination>http://scene7videos.s3.amazonaws.com/destination/cartoon.m3u8?acl=private-read&amp;06f413942c1653a79ce7fd1fd7874736bc67b4357ded88413d8d6b1d2104835a</destination>  
+    <size>400x300</size>  
+    <audio_bitrate>56k</audio_bitrate>  
+    <audio_sample_rate>44100</audio_sample_rate>  
+    <audio_channels_number>2</audio_channels_number>  
+    <keep_aspect_ratio>yes</keep_aspect_ratio>  
+    <video_codec>libx264</video_codec>  
+    <profile>iphone_stream</profile>  
+    <audio_codec>libfaac</audio_codec>  
+    <two_pass>no</two_pass>  
+    <turbo>yes</turbo>  
+    <cbr>no</cbr>  
+    <deinterlacing>no</deinterlacing>  
+    <keyframe>300</keyframe>  
+    <audio_volume>100</audio_volume>  
+    <rotate>0</rotate>  
+    <file_extension>tar</file_extension>  
+    <hint>no</hint>  
+    <bitrates>600k,400k,200k,110k</bitrates>  
+    <framerates>29.97,29.97,15,10</framerates>  
+    <keyframes>90,90,45,30</keyframes>  
+    <pack_files>no</pack_files>  
+    <segment_duration>10</segment_duration>  
+    <add_audio_only>yes</add_audio_only>  
+    <still_image>first_segment</still_image>  
+    <still_image_time>5</still_image_time>  
+    <still_image_size>480x320</still_image_size>  
+  </format>  
+</query>

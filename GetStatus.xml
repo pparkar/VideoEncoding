@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+<query>
+	<action>GetStatus</action>
+	<userid>22049</userid>
+	<userkey>8d938467da2327efe55f43f420c3dc86</userkey>
+	<extended>yes</extended>
+	<!-- <mediaid>20253747,20254353,20254390,20254416,20254441,20273049,20278559,20279268,20279545,20279844</mediaid> -->
+	<mediaid>20294473</mediaid>
+</query>

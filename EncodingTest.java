@@ -98,12 +98,17 @@ public class EncodingTest {
         return 0;
     }
 
+    private static int addSubUser(String xmlFilePath) {
+        return execute(xmlFilePath);
+    }
+    
     public static void main(String[] args) {
 //        startEncodingWorkflow("com/encoding/addFile_customPreset.xml");
 //        getStatus("com/encoding/GetStatus.xml");
 //        getStatus("com/encoding/RestartFailedTask.xml");
         
 //        startEncodingWorkflow("com/encoding/addMedia.xml");
-        getStatus("com/encoding/GetStatus.xml");
+        //getStatus("com/encoding/GetStatus.xml");
+        addSubUser("com/encoding/createSubUser.xml");
     }
 }

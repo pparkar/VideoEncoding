@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<query>
+	<!-- Main fields -->
+<userid>22049</userid>
+<userkey>8d938467da2327efe55f43f420c3dc86</userkey>
+	<action>AddSubUser</action>
+	<user_data>
+		<email>priti.adobe@gmail.com</email>
+		<login>customer1</login>
+		<password>####</password>
+		<first_name>Customer1</first_name>
+		<last_name>Scene7</last_name>
+		<!-- <phone>[Phone]</phone> -->
+	</user_data>
+</query>
